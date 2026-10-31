@@ -132,8 +132,8 @@ export function HeroSlider() {
                 className="object-cover object-center transition-transform duration-1000 ease-out"
                 sizes="100vw"
               />
-              {/* 20% Overlay only on 1st hero slider banner */}
-              {index === 0 && (
+              {/* 20% Overlay on hero slider banners */}
+              {(index === 0 || index === 1) && (
                 <div className="absolute inset-0 bg-[#00172e]/20 pointer-events-none" />
               )}
             </div>

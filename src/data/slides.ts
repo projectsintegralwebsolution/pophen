@@ -39,7 +39,7 @@ export const HERO_SLIDES: HeroSlide[] = [
     subtitle: "Semiconductor, Pharma & Biotech Facilities",
     description:
       "Delivering ISO Class 1 to Class 8 controlled environments for semiconductor wafer fabrication, sterile pharmaceuticals, and biotechnology.",
-    image: "/images/hero-banner-cleanroom-inspect.png",
+    image: "/images/hero-banner-inspect-v2.png",
     primaryCtaText: "Explore Our Systems",
     primaryCtaHref: "#industries",
     secondaryCtaText: "Discuss Your Project",
