@@ -36,9 +36,9 @@ export const HERO_SLIDES: HeroSlide[] = [
     id: "slide-3",
     badge: "CRITICAL INDUSTRY SOLUTIONS",
     title: "CONTAMINATION CONTROL FOR HIGH-TECH",
-    subtitle: "Semiconductor, Pharma & Biotech Facilities",
+    subtitle: "Semiconductor, Battery Dryrooms, Data Centres & Medical Devices",
     description:
-      "Delivering ISO Class 1 to Class 8 controlled environments for semiconductor wafer fabrication, sterile pharmaceuticals, and biotechnology.",
+      "Delivering ISO Class 1 to Class 8 controlled cleanrooms and ultra-low dew point dryrooms for semiconductor fabrication, battery gigafactories, solar cells, and sterile medical manufacturing.",
     image: "/images/hero-banner-inspect-v2.png",
     primaryCtaText: "Explore Our Systems",
     primaryCtaHref: "#industries",

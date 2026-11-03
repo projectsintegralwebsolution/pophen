@@ -71,7 +71,9 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
       <div className="fixed inset-y-0 right-0 max-w-sm w-full bg-pophen-navy-950 text-white shadow-2xl flex flex-col z-50 border-l border-white/10 animate-in slide-in-from-right duration-300 overflow-hidden">
         {/* Top Header */}
         <div className="p-4 border-b border-white/10 flex items-center justify-between bg-pophen-navy-950/80">
-          <Logo variant="white" height={54} />
+          <div className="inline-flex items-center bg-white px-3 py-1 rounded-xl shadow-md">
+            <Logo variant="original" height={42} />
+          </div>
           <button
             type="button"
             onClick={onClose}

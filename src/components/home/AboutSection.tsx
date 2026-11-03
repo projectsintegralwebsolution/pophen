@@ -47,7 +47,7 @@ export function AboutSection() {
               </p>
 
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                Our modular cleanroom systems are manufactured with strict adherence to ISO 14644 and GMP standards, providing pharmaceutical, semiconductor, biotechnology, and advanced battery facilities with structural integrity, acoustic performance, and chemical resistance.
+                Our modular cleanroom systems are manufactured with strict adherence to ISO 14644 and GMP standards, providing Semiconductor, Battery (Dryrooms &amp; Cleanrooms), Data Centre, Solar Cell, Hi-Tech, and Medical Device facilities with structural integrity, acoustic performance, and chemical resistance.
               </p>
             </div>
 

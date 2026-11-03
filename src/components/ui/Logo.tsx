@@ -7,30 +7,20 @@ interface LogoProps {
   height?: number;
 }
 
-export function Logo({ className = "", variant = "white", height = 58 }: LogoProps) {
-  // If explicitly requested as badge or original, use the exact uploaded rectangular file
-  const isBadge = variant === "badge" || variant === "original";
-
-  const src = isBadge
-    ? "/images/pophen-logo.png"
-    : variant === "white"
-    ? "/images/pophen-logo-white-tight.png"
-    : "/images/pophen-logo-navy-tight.png";
-
-  const width = isBadge
-    ? Math.round(height * (144 / 100))
-    : Math.round(height * (124 / 65));
+export function Logo({ className = "", height = 52 }: LogoProps) {
+  // Official Pophen India Logo: 1024 x 500 (aspect ratio: 2.048)
+  const width = Math.round(height * (1024 / 500));
 
   return (
     <Link
       href="/"
-      className={`inline-flex items-center gap-2 group ${className}`}
-      aria-label="POPHEN Home"
+      className={`inline-flex items-center group ${className}`}
+      aria-label="POPHEN - Advanced Cleanroom Architecture"
     >
       <div className="relative flex items-center">
         <Image
-          src={src}
-          alt="POPHEN - Waterproof and Fireproof Cleanroom Systems"
+          src="/images/pophen-logo.png"
+          alt="POPHEN - Advanced Cleanroom Architecture"
           width={width}
           height={height}
           priority
@@ -42,3 +32,4 @@ export function Logo({ className = "", variant = "white", height = 58 }: LogoPro
     </Link>
   );
 }
+

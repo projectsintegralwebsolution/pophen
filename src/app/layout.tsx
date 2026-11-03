@@ -4,9 +4,9 @@ import { COMPANY_INFO } from "@/data/company";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://pophen.in"),
-  title: "POPHEN | Advanced Cleanroom Architectural Systems & Engineering Solutions",
+  title: "POPHEN | Advanced Cleanroom Architecture & Controlled Environments",
   description:
-    "Pophen India specializes in modular cleanroom systems, wall panels, ceilings, airtight doors, windows, and contamination control technology for semiconductor, pharmaceutical, and high-tech manufacturing.",
+    "Pophen India specializes in modular cleanroom systems, battery dryrooms, wall panels, ceilings, airtight doors, windows, and contamination control technology for Semiconductor, Battery (Dryrooms & Cleanrooms), Data Centre, Solar Cell, Hi-Tech, and Medical Device manufacturing.",
   keywords: [
     "Pophen",
     "Pophen India",
@@ -15,8 +15,13 @@ export const metadata: Metadata = {
     "cleanroom wall panels",
     "cleanroom ceilings",
     "cleanroom doors",
-    "pharmaceutical cleanroom",
+    "battery dryroom solutions",
+    "battery cleanroom solutions",
     "semiconductor cleanroom",
+    "data centre containment",
+    "solar cell cleanroom",
+    "hi-tech cleanroom",
+    "medical device cleanroom",
     "contamination control",
     "ISO 14644",
     "GMP cleanroom India",
@@ -36,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "POPHEN | Advanced Cleanroom Architectural Systems & Turnkey Solutions",
     description:
-      "Precision-engineered modular cleanroom systems, wall panels, ceilings, airtight doors, and contamination-controlled environments for high-tech manufacturing.",
+      "Precision-engineered modular cleanrooms, battery dryrooms, wall panels, ceilings, airtight doors, and contamination-controlled environments for Semiconductor, Battery, Data Centre, Solar Cell, Hi-Tech, and Medical Device facilities.",
     url: "https://pophen.in",
     siteName: "POPHEN India",
     locale: "en_IN",
@@ -54,7 +59,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "POPHEN | Advanced Cleanroom Architectural Systems",
     description:
-      "Modular cleanroom engineering and contamination control solutions for semiconductor and pharmaceutical manufacturing.",
+      "Modular cleanroom engineering and contamination control solutions for Semiconductor, Battery Dryrooms & Cleanrooms, Data Centres, Solar Cells, and Medical Devices.",
     images: ["/images/hero-cleanroom-Chp3Ho9d.webp"],
   },
   robots: {

@@ -128,11 +128,13 @@ export function Footer() {
           {/* Column 1: Brand Info & 4 Credential Badges (lg:col-span-3) */}
           <div className="lg:col-span-3 space-y-5">
             <div>
-              <Logo variant="white" height={56} />
+              <div className="inline-flex items-center bg-white px-3.5 py-1.5 rounded-xl shadow-md border border-white/10">
+                <Logo variant="original" height={48} />
+              </div>
             </div>
 
             <p className="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-sm">
-              POPHEN specialises in the development, engineering and manufacturing of modular cleanroom architectural systems, supplying pharmaceutical, semiconductor, biotechnology and advanced battery facilities worldwide.
+              POPHEN specialises in the development, engineering and manufacturing of modular cleanroom architectural systems, supplying Semiconductor, Battery (Dryrooms &amp; Cleanrooms), Data Centre, Solar Cell, Hi-Tech, and Medical Device facilities worldwide.
             </p>
 
             {/* 4 Credential Badges Grid */}

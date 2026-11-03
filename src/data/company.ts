@@ -31,7 +31,7 @@ export const COMPANY_INFO: CompanyInfo = {
   legalName: "Pophen India",
   tagline: "Advanced Cleanroom Architecture & Controlled Environments",
   description:
-    "Pophen specializes in the design, engineering, and manufacturing of modular cleanroom systems and controlled environment facilities meeting international ISO and GMP standards.",
+    "Pophen specializes in the design, engineering, and manufacturing of modular cleanroom systems and controlled environment facilities meeting international ISO and GMP standards for Semiconductor, Battery (Dryrooms & Cleanrooms), Data Centre, Solar Cell, Hi-Tech, and Medical Device facilities.",
   phone: "+917400197293",
   formattedPhone: "+91 7400197293",
   email: "info@pophen.in",

@@ -347,17 +347,20 @@ export function EnquirySection({ selectedProductInterest }: EnquirySectionProps)
                     <option value="">Select a Product Line...</option>
                     {PRODUCTS_DATA.map((product) => (
                       <option key={product.id} value={product.name}>
-                        {product.name} ({product.shortName})
+                        {product.name}
                       </option>
                     ))}
                     <option value="Turnkey Cleanroom Project Execution">
-                      Turnkey Cleanroom Project Execution (Complete Facility)
+                      Turnkey Cleanroom Project Execution
                     </option>
                     <option value="Modular Ceiling & HVAC Integration">
                       Modular Ceiling &amp; HVAC Integration
                     </option>
-                    <option value="Cleanroom Maintenance & Protocol Training">
-                      Cleanroom Maintenance &amp; Protocol Training
+                    <option value="Cleanroom Maintenance & Operator Training">
+                      Cleanroom Maintenance &amp; Operator Training
+                    </option>
+                    <option value="Other Custom Engineering Solution">
+                      Other Custom Engineering Solution
                     </option>
                   </select>
                   {errors.productInterest && (

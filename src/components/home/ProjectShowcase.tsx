@@ -11,21 +11,21 @@ export function ProjectShowcase() {
     {
       id: "gal-1",
       title: "Modular Cleanroom Envelope Installation",
-      sector: "Pharmaceutical Grade B Facility",
+      sector: "Semiconductor & Hi-Tech Fab Bay",
       image: "/images/activity2-CDpLlqGO.webp",
       specs: "50mm Flush Wall Panels • Walk-on Ceilings",
     },
     {
       id: "gal-2",
       title: "Clean Air Recirculation & Ceiling Grid",
-      sector: "Semiconductor Fab Integration",
+      sector: "Battery Dryroom & Gigafactory Suite",
       image: "/images/activity3-DHLpvUU3.webp",
       specs: "FFU Heavy-duty Suspension • Antistatic Finish",
     },
     {
       id: "gal-3",
       title: "Airlock & Interlocking Doorways",
-      sector: "Biotechnology Research Laboratory",
+      sector: "Data Centre & Solar Cell Enclosure",
       image: "/images/activity4-3RM3aurZ.webp",
       specs: "Hermetic Cleanroom Doors • Flush Glazing",
     },
@@ -55,7 +55,7 @@ export function ProjectShowcase() {
               Cleanroom Installations Across Industries
             </h2>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-              Engineered architectural installations across leading pharmaceutical, semiconductor, and biotechnology manufacturing facilities.
+              Engineered architectural installations across leading semiconductor, battery dryroom, data centre, solar cell, hi-tech, and medical device manufacturing facilities.
             </p>
           </div>
 

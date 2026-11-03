@@ -152,9 +152,9 @@ export function Header({
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-          {/* Logo — Navy on white */}
+          {/* Logo — Official Pophen India Logo */}
           <div className="flex-shrink-0">
-            <Logo variant="navy" height={isScrolled ? 58 : 64} />
+            <Logo variant="original" height={isScrolled ? 48 : 54} />
           </div>
 
           {/* Desktop Navigation Menu */}
