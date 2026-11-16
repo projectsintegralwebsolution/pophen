@@ -59,49 +59,51 @@ export const NAV_ITEMS = [
   { name: "Home", href: "/" },
   {
     name: "Products",
-    href: "#products",
+    href: "/products",
     children: [
       {
         name: "Cleanroom Wall Panels",
-        href: "#cleanroom-walls",
+        href: "/products/r-series",
         description: "Modular stud & stud-less panels with PIR/Honeycomb cores",
         tag: "Core Envelope"
       },
       {
         name: "Ceiling Systems",
-        href: "#ceilings",
+        href: "/products/ck2000-walkable",
         description: "Walk-on aluminum grids with airtight panels & FFU cutouts",
         tag: "Walk-On Grid"
       },
       {
         name: "Cleanroom Doors",
-        href: "#doors",
+        href: "/products/doors-windows",
         description: "Flush swing & sliding doors with interlocking controls",
         tag: "Airtight"
       },
       {
         name: "Cleanroom Windows",
-        href: "#cleanroom-windows",
+        href: "/products/doors-windows",
         description: "Double-glazed flush safety glass with desiccant chambers",
         tag: "Flush Vision"
       },
       {
         name: "Modular Partitions",
-        href: "#modular-partitions",
+        href: "/products/ss2000",
         description: "Demountable partition systems for dynamic layouts",
         tag: "Flexible"
       },
       {
         name: "Air Units & Systems",
-        href: "#air-units",
+        href: "/products/ck2000-ffu",
         description: "Laminar flow workstations, pass-throughs & air units",
         tag: "Clean Air"
       },
     ],
   },
-  { name: "About Us", href: "#about" },
-  { name: "Industries", href: "#industries" },
-  { name: "Process", href: "#process" },
-  { name: "Installations", href: "#showcase" },
-  { name: "Contact", href: "#contact" },
+  { name: "About Us", href: "/about" },
+  { name: "Industries", href: "/industries" },
+  { name: "Process", href: "/expertise" },
+  { name: "Installations", href: "/projects" },
+  { name: "Our Clientele", href: "/our-clientele" },
+  { name: "Product Certifications", href: "/product-certifications" },
+  { name: "Contact", href: "/contact" },
 ];

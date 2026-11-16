@@ -115,7 +115,7 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
                       {PRODUCTS_DATA.map((product: ProductItem) => (
                         <Link
                           key={product.id}
-                          href={`#${product.id}`}
+                          href={`/products/${product.id}`}
                           onClick={onClose}
                           className="flex items-center gap-3 p-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-pophen-cyan/30 transition-all duration-200"
                         >
@@ -149,7 +149,7 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
 
                       {/* Link to view all products on page */}
                       <Link
-                        href="#products"
+                        href="/products"
                         onClick={onClose}
                         className="flex items-center justify-between py-2 px-3 text-xs font-semibold text-pophen-cyan hover:text-white transition-colors"
                       >

@@ -38,7 +38,7 @@ const TOP_ROW_ITEMS: MegaMenuItem[] = [
     badge: "50–100mm Panels",
     description: "High-performance wall panel systems for controlled environments.",
     image: "/images/cleanroom-walls-hallway-D4ZV_xh8.webp",
-    href: "#cleanroom-walls",
+    href: "/products/r-series",
   },
   {
     id: "ceilings",
@@ -46,7 +46,7 @@ const TOP_ROW_ITEMS: MegaMenuItem[] = [
     badge: "FFU Integrated",
     description: "Modular and integrated ceiling solutions with FFU.",
     image: "/images/cleanroom-ceilings-detail-H-esTC_Q.webp",
-    href: "#ceilings",
+    href: "/products/ck2000-walkable",
   },
   {
     id: "doors",
@@ -54,7 +54,7 @@ const TOP_ROW_ITEMS: MegaMenuItem[] = [
     badge: "Hermetic Drop Seal",
     description: "Hermetically sealed door systems for critical environments.",
     image: "/images/cleanroom-doors-hero-D007b7fJ.webp",
-    href: "#doors",
+    href: "/products/doors-windows",
   },
   {
     id: "cleanroom-windows",
@@ -62,7 +62,7 @@ const TOP_ROW_ITEMS: MegaMenuItem[] = [
     badge: "Flush Double Glazed",
     description: "Flush mounted, double glazed window systems.",
     image: "/images/cleanroom-windows-hero-eqB039vc.webp",
-    href: "#cleanroom-windows",
+    href: "/products/doors-windows",
   },
 ];
 
@@ -73,7 +73,7 @@ const BOTTOM_ROW_ITEMS: MegaMenuItem[] = [
     badge: "Modular Interlocking",
     description: "Flexible partition systems for cleanroom spaces.",
     image: "/images/hero-banner-1-v2.png",
-    href: "#modular-partitions",
+    href: "/products/ss2000",
   },
   {
     id: "air-units",
@@ -81,7 +81,7 @@ const BOTTOM_ROW_ITEMS: MegaMenuItem[] = [
     badge: "ISO Class 5 Laminar",
     description: "Laminar flow and FFU systems for clean air.",
     image: "/images/cleanroom-ceilings-detail-H-esTC_Q.webp",
-    href: "#air-units",
+    href: "/products/ck2000-ffu",
   },
   {
     id: "custom-engineering",
@@ -89,7 +89,7 @@ const BOTTOM_ROW_ITEMS: MegaMenuItem[] = [
     badge: "50–100mm Panels",
     description: "Custom panels, airlocks & dynamic pass-through solutions.",
     image: "/images/activity4-3RM3aurZ.webp",
-    href: "#contact",
+    href: "/solutions",
     isCustom: true,
   },
 ];
@@ -369,7 +369,7 @@ export function ProductMegaMenu({
               Explore Our Cleanroom Product Range
             </h3>
             <Link
-              href="#products"
+              href="/products"
               onClick={onClose}
               className="inline-flex items-center gap-1 text-[13px] font-semibold text-[#0077be] hover:text-pophen-navy transition-colors group flex-shrink-0"
             >
@@ -580,7 +580,7 @@ export function ProductMegaMenu({
         } grid grid-cols-3 divide-x divide-slate-200/90 flex-shrink-0`}
       >
         {/* Item 1 */}
-        <div className="flex items-center gap-2.5 pr-3">
+        <Link href="/product-certifications" className="flex items-center gap-2.5 pr-3 group hover:opacity-90 transition-opacity">
           <div className="w-7 h-7 rounded-lg bg-white border border-slate-200/90 flex items-center justify-center flex-shrink-0 text-[#0077be] shadow-2xs">
             <ShieldCheck className="w-3.5 h-3.5" />
           </div>
@@ -592,10 +592,10 @@ export function ProductMegaMenu({
               Engineered to global cleanroom standards
             </div>
           </div>
-        </div>
+        </Link>
 
         {/* Item 2 */}
-        <div className="flex items-center gap-2.5 px-3">
+        <Link href="/contact" className="flex items-center gap-2.5 px-3 group hover:opacity-90 transition-opacity">
           <div className="w-7 h-7 rounded-lg bg-white border border-slate-200/90 flex items-center justify-center flex-shrink-0 text-[#0077be] shadow-2xs">
             <Truck className="w-3.5 h-3.5" />
           </div>
@@ -607,10 +607,10 @@ export function ProductMegaMenu({
               Design, installation and service nationwide
             </div>
           </div>
-        </div>
+        </Link>
 
         {/* Item 3 */}
-        <div className="flex items-center gap-2.5 pl-3">
+        <Link href="/resources" className="flex items-center gap-2.5 pl-3 group hover:opacity-90 transition-opacity">
           <div className="w-7 h-7 rounded-lg bg-white border border-slate-200/90 flex items-center justify-center flex-shrink-0 text-[#0077be] shadow-2xs">
             <FileText className="w-3.5 h-3.5" />
           </div>
@@ -622,7 +622,7 @@ export function ProductMegaMenu({
               Our engineering team provides direct support
             </div>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );

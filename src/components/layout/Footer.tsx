@@ -36,21 +36,23 @@ export function Footer() {
   };
 
   const cleanroomSystems = [
-    { name: "Cleanroom Wall Panels", href: "#cleanroom-walls" },
-    { name: "Ceiling Systems", href: "#ceilings" },
-    { name: "Cleanroom Doors", href: "#doors" },
-    { name: "Cleanroom Windows", href: "#cleanroom-windows" },
-    { name: "Modular Partitions", href: "#modular-partitions" },
-    { name: "Air Units & Systems", href: "#air-units" },
+    { name: "Cleanroom Wall Panels", href: "/products/r-series" },
+    { name: "Ceiling Systems", href: "/products/ck2000-walkable" },
+    { name: "Cleanroom Doors", href: "/products/doors-windows" },
+    { name: "Cleanroom Windows", href: "/products/doors-windows" },
+    { name: "Modular Partitions", href: "/products/ss2000" },
+    { name: "Air Units & Systems", href: "/products/ck2000-ffu" },
   ];
 
   const navigationLinks = [
-    { name: "About Us", href: "#about" },
-    { name: "Products", href: "#products" },
-    { name: "Industries", href: "#industries" },
-    { name: "Process", href: "#process" },
-    { name: "Installations", href: "#showcase" },
-    { name: "Contact", href: "#contact" },
+    { name: "About Us", href: "/about" },
+    { name: "Products", href: "/products" },
+    { name: "Industries", href: "/industries" },
+    { name: "Process", href: "/expertise" },
+    { name: "Installations", href: "/projects" },
+    { name: "Our Clientele", href: "/our-clientele" },
+    { name: "Product Certifications", href: "/product-certifications" },
+    { name: "Contact", href: "/contact" },
   ];
 
   const credentialBadges = [
@@ -297,11 +299,11 @@ export function Footer() {
 
           {/* Center: Legal Links */}
           <div className="flex items-center gap-3 text-[14px] text-slate-400">
-            <Link href="#about" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/about" className="hover:text-white transition-colors">Privacy Policy</Link>
             <span className="text-slate-600">|</span>
-            <Link href="#process" className="hover:text-white transition-colors">Terms of Use</Link>
+            <Link href="/expertise" className="hover:text-white transition-colors">Terms of Use</Link>
             <span className="text-slate-600">|</span>
-            <Link href="#contact" className="hover:text-white transition-colors">Sitemap</Link>
+            <Link href="/resources" className="hover:text-white transition-colors">Sitemap</Link>
           </div>
 
           {/* Right: Social Icons */}

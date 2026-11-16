@@ -194,35 +194,49 @@ export function Header({
             </div>
 
             <Link
-              href="#about"
+              href="/about"
               className="px-3 py-1.5 text-xs font-semibold text-slate-700 hover:text-pophen-navy hover:bg-slate-50 rounded-md transition-colors"
             >
               About Us
             </Link>
 
             <Link
-              href="#industries"
+              href="/industries"
               className="px-3 py-1.5 text-xs font-semibold text-slate-700 hover:text-pophen-navy hover:bg-slate-50 rounded-md transition-colors"
             >
               Industries
             </Link>
 
             <Link
-              href="#process"
+              href="/expertise"
               className="px-3 py-1.5 text-xs font-semibold text-slate-700 hover:text-pophen-navy hover:bg-slate-50 rounded-md transition-colors"
             >
               Process
             </Link>
 
             <Link
-              href="#showcase"
-              className="px-3 py-1.5 text-xs font-semibold text-slate-700 hover:text-pophen-navy hover:bg-slate-50 rounded-md transition-colors"
+              href="/projects"
+              className="px-2.5 xl:px-3 py-1.5 text-xs font-semibold text-slate-700 hover:text-pophen-navy hover:bg-slate-50 rounded-md transition-colors whitespace-nowrap"
             >
               Installations
             </Link>
 
             <Link
-              href="#contact"
+              href="/our-clientele"
+              className="px-2.5 xl:px-3 py-1.5 text-xs font-semibold text-slate-700 hover:text-pophen-navy hover:bg-slate-50 rounded-md transition-colors whitespace-nowrap"
+            >
+              Clientele
+            </Link>
+
+            <Link
+              href="/product-certifications"
+              className="px-2.5 xl:px-3 py-1.5 text-xs font-semibold text-slate-700 hover:text-pophen-navy hover:bg-slate-50 rounded-md transition-colors whitespace-nowrap"
+            >
+              Certifications
+            </Link>
+
+            <Link
+              href="/contact"
               className="px-3 py-1.5 text-xs font-semibold text-slate-700 hover:text-pophen-navy hover:bg-slate-50 rounded-md transition-colors"
             >
               Contact Us
@@ -240,18 +254,14 @@ export function Header({
               <ArrowRight className="w-3.5 h-3.5" />
             </button>
 
-            <button
-              type="button"
-              onClick={() => {
-                const el = document.getElementById("products");
-                if (el) el.scrollIntoView({ behavior: "smooth" });
-              }}
-              className="p-2 text-slate-500 hover:text-pophen-navy hover:bg-slate-100 rounded-lg transition-colors"
+            <Link
+              href="/products"
+              className="p-2 text-slate-500 hover:text-pophen-navy hover:bg-slate-100 rounded-lg transition-colors inline-flex items-center justify-center"
               aria-label="Search Cleanroom Products"
               title="Search products"
             >
               <Search className="w-4 h-4" />
-            </button>
+            </Link>
           </div>
 
           {/* Mobile Menu Hamburger Button */}
